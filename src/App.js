@@ -3,23 +3,33 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    return ( < div className = "App" >
-        <
-        header className = "App-header" >
-        <
-        img src = { logo }
-        className = "App-logo"
-        alt = "logo" / >
-        <
-        p >
-        Edit 22 < code > src / App.js < /code> and save to reload. </p >
-        <
-        p > my first paragrap < /p>  <
-        h1 > my heading { 3 + 3 } < /h1> < /
-        header >
-        <
-        /div>
+    let person = {
+        name: 'Dr. Mahfujur Rahman',
+        job: 'Singer',
+    }
+    let person2 ={  
+        name: 'Eva Rahman',
+        job: 'Kokil konti'
+      } 
+    return (
+    <div className = "App">
+        <header className = "App-header">
+            <img src = {logo}
+            className = "App-logo"
+            alt = "logo"/>
+            <p>Edit 22 < code > src / App.js </code>and save to reload. </p >
+            <p>My First Paragrap </p> 
 
+            <h2>
+                Name: {person.name +" is a "+ person.job}
+            </h2>
+
+            <h4>
+                Singer: {person2.name +" is a "+ person.job}
+            </h4>
+        </header>
+        
+    </div>
     );
 }
 
