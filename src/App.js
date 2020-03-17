@@ -3,8 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    return ( <
-        div className = "App" >
+    return ( < div className = "App" >
         <
         header className = "App-header" >
         <
@@ -13,12 +12,14 @@ function App() {
         alt = "logo" / >
         <
         p >
-        Edit 22 < code > src / App.js < /code> and save to reload. < /
-        p >
+        Edit 22 < code > src / App.js < /code> and save to reload. </p >
         <
-        /
-        header > <
+        p > my first paragrap < /p>  <
+        h1 > my heading { 3 + 3 } < /h1> < /
+        header >
+        <
         /div>
+
     );
 }
 
