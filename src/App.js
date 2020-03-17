@@ -11,6 +11,13 @@ function App() {
         name: 'Eva Rahman',
         job: 'Kokil konti'
       } 
+      var style ={
+          color:'red',
+          backgroundColor:'gray',
+          border:'5px solid red',
+          padding:'10px',
+          borderRadius:'10px',
+      }
     return (
     <div className = "App">
         <header className = "App-header">
@@ -20,11 +27,11 @@ function App() {
             <p>Edit 22 < code > src / App.js </code>and save to reload. </p >
             <p>My First Paragrap </p> 
 
-            <h2>
+            <h2 className="" style ={style}>
                 Name: {person.name +" is a "+ person.job}
             </h2>
 
-            <h4>
+            <h4 style = {{backgroundColor:'blue', border:'5px solid green', padding:'10px', }}>
                 Singer: {person2.name +" is a "+ person.job}
             </h4>
         </header>
